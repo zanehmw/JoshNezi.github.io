@@ -200,9 +200,10 @@ padding-left: 15px;
 
 .image5 {
   width: 140px;
+  height: 140px;
   margin-top: 300px;
   margin-left: 1150px;
-  border-radius: 50px;
+  border-radius: 110px;
 }
 
 .final {
@@ -440,5 +441,6 @@ padding-left: 15px;
 footer {
   margin-top: 200px;
   background-color: blue;
-  height: 180px;
+  height: 80px;
+  width: auto;
 }
