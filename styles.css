@@ -161,11 +161,7 @@ padding-left: 15px;
   border-radius: 50px;
 }
 
-.center {
-  margin-left: 70px;
-  margin-top: 300px;
-  display: inline;
-}
+
 
 .skills {
   float: right;
@@ -187,7 +183,7 @@ padding-left: 15px;
 .final {
   float: left;
   margin-left: 650px;
-  margin-top: -180px;
+  margin-top: -230px;
   font-size: 16px;
   width: 350px;
   height: 100px;
@@ -205,7 +201,7 @@ padding-left: 15px;
   font-size: 40px;
   color: blue;
   margin-left: 195px;
-  margin-top: -110px;
+  margin-top: -150px;
 }
 
 #languages > img {
