@@ -249,11 +249,11 @@ padding-left: 15px;
     margin-top: 1630px;
     margin-left: 50px;
     -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 15s linear infinite 0s;
-    -moz-animation: imageAnimation 15s linear infinite 0s;
-    -o-animation: imageAnimation 15s linear infinite 0s;
-    -ms-animation: imageAnimation 15s linear infinite 0s;
-    animation: imageAnimation 15s linear infinite 0s;
+    -webkit-animation: imageAnimation 18s linear infinite 0s;
+    -moz-animation: imageAnimation 18s linear infinite 0s;
+    -o-animation: imageAnimation 18s linear infinite 0s;
+    -ms-animation: imageAnimation 18s linear infinite 0s;
+    animation: imageAnimation 18s linear infinite 0s;
 }
 
 #languages > img:nth-child(2)  {
