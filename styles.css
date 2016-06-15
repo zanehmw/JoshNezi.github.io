@@ -154,11 +154,17 @@ padding-left: 15px;
 }
 
 .image4 {
-  height: 140px;
-  width: 140px;
+  height: 100px;
+  width: 100px;
   margin-top: 550px;
-  margin-left: 80px;
+  margin-left: 280px;
   border-radius: 50px;
+}
+
+.center {
+  margin-left: 70px;
+  margin-top: 300px;
+  display: inline;
 }
 
 .skills {
@@ -195,74 +201,75 @@ padding-left: 15px;
   color: white;
 }
 
+.gap {
+  font-size: 40px;
+  color: blue;
+  margin-left: 195px;
+  margin-top: -110px;
+}
+
 #languages > img {
-    width: 110px;
-    height: 110px;
-    border-radius: 50px;
+    width: 160px;
+    height: 160px;
+    border-radius: 120px;
+    border-style: solid;
     position: absolute;
     top: 0px;
     left: 0px;
     color: transparent;
     opacity: 0;
     z-index: 0;
-    margin-top: 1680px;
-    margin-left: 280px;
+    margin-top: 1630px;
+    margin-left: 50px;
     -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 30s linear infinite 0s;
-    -moz-animation: imageAnimation 30s linear infinite 0s;
-    -o-animation: imageAnimation 30s linear infinite 0s;
-    -ms-animation: imageAnimation 30s linear infinite 0s;
-    animation: imageAnimation 30s linear infinite 0s;
+    -webkit-animation: imageAnimation 15s linear infinite 0s;
+    -moz-animation: imageAnimation 15s linear infinite 0s;
+    -o-animation: imageAnimation 15s linear infinite 0s;
+    -ms-animation: imageAnimation 15s linear infinite 0s;
+    animation: imageAnimation 15s linear infinite 0s;
 }
 
 #languages > img:nth-child(2)  {
     /*background-image: url(../images/2.jpg);*/
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -o-animation-delay: 3s;
+    -ms-animation-delay: 3s;
+    animation-delay: 3s;
+}
+#languages > img:nth-child(3) {
+    /*background-image: url(../images/3.jpg);*/
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
     -ms-animation-delay: 6s;
     animation-delay: 6s;
 }
-#languages > img:nth-child(3) {
-    /*background-image: url(../images/3.jpg);*/
+#languages > img:nth-child(4) {
+    /*background-image: url(../images/4.jpg);*/
+    -webkit-animation-delay: 9s;
+    -moz-animation-delay: 9s;
+    -o-animation-delay: 9s;
+    -ms-animation-delay: 9s;
+    animation-delay: 9s;
+}
+#languages > img:nth-child(5) {
+    /*background-image: url(../images/5.jpg);*/
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
     -ms-animation-delay: 12s;
     animation-delay: 12s;
 }
-#languages > img:nth-child(4) {
-    /*background-image: url(../images/4.jpg);*/
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
-}
-#languages > img:nth-child(5) {
-    /*background-image: url(../images/5.jpg);*/
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
-}
 #languages > img:nth-child(6) {
     /*background-image: url(../images/5.jpg);*/
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s;
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    -o-animation-delay: 15s;
+    -ms-animation-delay: 15s;
+    animation-delay: 15s;
 }
-#languages > img:nth-child(7) {
-    /*background-image: url(../images/5.jpg);*/
-    -webkit-animation-delay: 36s;
-    -moz-animation-delay: 36s;
-    -o-animation-delay: 36s;
-    -ms-animation-delay: 36s;
-    animation-delay: 36s;
-}
+
 
 @-webkit-keyframes imageAnimation {
     0% { opacity: 0;
