@@ -441,6 +441,17 @@ padding-left: 15px;
     100% { opacity: 0 }
 }
 
+.p1 {
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 500px;
+    border-style: solid;
+    border-radius: 370px;
+
+}
+
+
 footer {
   margin-top: 200px;
   background-color: blue;
